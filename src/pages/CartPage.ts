@@ -1,27 +1,3 @@
-// import { strict as assert } from "assert";
-
-// export class CartPage {
-//   constructor(private driver: WebdriverIO.Browser) {}
-
-//   private productName = "id=com.androidsample.generalstore:id/productName";
-
-//   async validateProductDisplayed(expectedProduct: string) {
-//     const products = await this.driver.$$(this.productName);
-
-//     let found = false;
-
-//     for (const product of products) {
-//       const text = await product.getText();
-//       if (text === expectedProduct) {
-//         found = true;
-//         break;
-//       }
-//     }
-
-//     assert.equal(found, true, "Product not found in cart");
-//   }
-// }
-
 import { strict as assert } from "assert";
 
 export class CartPage {

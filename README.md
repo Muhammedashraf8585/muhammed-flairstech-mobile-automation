@@ -27,8 +27,14 @@ The automated test covers:
 - `data/` → Test data
 - `utils/` → Driver setup
 
+
 ## How to Run
 
 
-appium
+appium 
+
 npx mocha --require ts-node/register src/tests/generalStore.test.ts
+
+## Screenshot
+
+![Test Result](./Screenshots/Screenshot10.png)
